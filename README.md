@@ -1,2 +1,2 @@
 # Minha-Homepage
-Site onde mostro um pouco do meu valor como profissional :)
+Projeto pessoal ainda em produção, o mesmo tem intuito de testar algumas das minhas capacidades e formar meu portfólio. Sendo documentado do início ao fim.
