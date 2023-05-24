@@ -155,6 +155,7 @@ body{
 }
 
 .texto_apresentacao {
+    width: 120vh;
     margin: 2rem auto;
     color: var(--cinza-fontes);
     font-size: 1.5rem;
