@@ -42,13 +42,12 @@ body{
 }
 
 .section_navegacao a{
-    width: 20%;
     display: flex;
     align-items: center;
     height: 4rem;
     justify-content: center;
     border-radius: 2.3em;
-    padding: 0 1rem;
+    padding: 0 2rem;
     transition: background-color 900ms;
 }
 
