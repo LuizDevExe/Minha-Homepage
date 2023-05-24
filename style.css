@@ -1,39 +1,39 @@
-:root{
+:root {
     --branco-fontes: #ffffff;
     --cinza-fontes: #8c8c8c;
-    
+
 }
 
 
 
-body{
+body {
     background-color: #000000;
     font-family: 'Poppins', sans-serif;
     color: var(--branco-fontes);
     scroll-behavior: smooth;
 }
 
-.textos_secundarios{
+.textos_secundarios {
     color: var(--cinza-fontes);
 }
 
 /* Sessão do NavBar */
-.section_navegacao{
-    width: 40%;
+.section_navegacao {
     position: fixed;
     top: 0.75rem;
-    left:50%;
+    left: 50%;
     border-radius: 2.3rem;
     height: 2.1rem 0;
     padding: 0.2rem 0;
     z-index: 998;
     transform: translateX(-50%) translateY(0rem);
     background-color: #262626;
-   
-	
+
+
 }
 
-.section_navegacao a{
+.section_navegacao a {
+
     text-decoration: none;
     color: var(--branco-fontes);
     font-size: 1.5rem;
@@ -41,19 +41,21 @@ body{
     color: var(--cinza-fontes);
 }
 
-.section_navegacao a{
+.section_navegacao a {
+    width: 23.5%;
     display: flex;
     align-items: center;
     height: 4rem;
     justify-content: center;
     border-radius: 2.3em;
-    padding: 0 2rem;
+    padding: 0 1em;
+    margin: 0 0.15rem;
     transition: background-color 900ms;
 }
 
 
-.section_navegacao ul{
-    padding: 0 2rem;
+.section_navegacao ul {
+    padding: 0 0.3rem;
     display: flex;
     justify-content: space-between;
 }
@@ -75,21 +77,23 @@ body{
     text-align: center;
 }
 
-.cabecalho_sobre{
+.cabecalho_sobre {
     margin-top: 7rem;
 }
-.cabecalho_sobre h2{
+
+.cabecalho_sobre h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.cabecalho_sobre h1{
+.cabecalho_sobre h1 {
     font-size: 6.5rem;
     font-weight: 600;
     margin-bottom: 2.5rem;
 }
-.cabecalho_sobre h1:hover{
-    text-decoration: underline  ;
+
+.cabecalho_sobre h1:hover {
+    text-decoration: underline;
 }
 
 .cabecalho_sobre p {
@@ -97,7 +101,7 @@ body{
     margin-bottom: 2rem;
 }
 
-.grid_imagem_principal{
+.grid_imagem_principal {
     font-size: 1.5rem;
     width: 80%;
     margin: auto;
@@ -107,7 +111,7 @@ body{
 }
 
 
-.grid_imagem_principal a{
+.grid_imagem_principal a {
     width: 20%;
     color: var(--branco-fontes);
     text-decoration: none;
@@ -115,7 +119,7 @@ body{
 }
 
 
-.grid_imagem_principal a img{
+.grid_imagem_principal a img {
     width: 60px;
 }
 
@@ -125,8 +129,8 @@ body{
     justify-content: space-around;
 }
 
-.imagem_perfil{
-    border-radius: 40rem    ;
+.imagem_perfil {
+    border-radius: 40rem;
     width: 65vh;
 }
 
@@ -135,21 +139,22 @@ body{
     transition: width 600ms;
 }
 
-.transition_border-radius:hover{
+.transition_border-radius:hover {
     border-radius: 10rem;
     width: 70vh;
 }
 
 
-.transition_links{
+.transition_links {
     transition: width 1s;
 
 }
-.transition_links li a img:hover{
-  width: 80px;
+
+.transition_links li a img:hover {
+    width: 80px;
 }
 
-.grid_imagem_principal a:hover{
+.grid_imagem_principal a:hover {
     font-size: 2rem;
 }
 
