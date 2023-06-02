@@ -18,7 +18,7 @@ body {
 }
 
 /* Sessão do NavBar */
-.section_navegacao {
+.sessao_navegacao {
 
     position: fixed;
     top: 0.75rem;
@@ -33,7 +33,7 @@ body {
 
 }
 
-.section_navegacao a {
+.sessao_navegacao a {
     text-decoration: none;
     color: var(--branco-fontes);
     font-size: 1.5rem;
@@ -50,13 +50,13 @@ body {
 }
 
 
-.section_navegacao ul {
+.sessao_navegacao ul {
     gap: 0.6rem;
     display: flex;
     justify-content: space-between;
 }
 
-.section_navegacao a:hover {
+.sessao_navegacao a:hover {
     color: var(--branco-fontes);
     background-color: var(--cinza-fontes);
 }
@@ -66,7 +66,7 @@ body {
 
 /* Sessão sobre */
 
-.sessão_apresentacao {
+.sessao_apresentacao {
     width: 60%;
     display: block;
     margin: 5em auto;
@@ -131,7 +131,7 @@ body {
     width: 60vh;
 }
 
-.sessão_texto_links {
+.sessao_texto_links {
     padding-top: 5rem;
     display: flex;
     width: 70%;
