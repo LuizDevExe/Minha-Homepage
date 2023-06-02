@@ -19,12 +19,13 @@ body {
 
 /* Sessão do NavBar */
 .section_navegacao {
+    
     position: fixed;
     top: 0.75rem;
     left: 50%;
     border-radius: 2.3rem;
     height: 2.1rem 0;
-    padding: 0.2rem 0;
+
     z-index: 998;
     transform: translateX(-50%) translateY(0rem);
     background-color: #262626;
@@ -33,29 +34,24 @@ body {
 }
 
 .section_navegacao a {
-
     text-decoration: none;
     color: var(--branco-fontes);
     font-size: 1.5rem;
     text-align: center;
     color: var(--cinza-fontes);
-}
-
-.section_navegacao a {
-    width: 23.5%;
+    width: 20%;
     display: flex;
     align-items: center;
     height: 4rem;
     justify-content: center;
     border-radius: 2.3em;
-    padding: 0 1em;
-    margin: 0 0.15rem;
+    padding: 0 1.6rem;
     transition: background-color 900ms;
 }
 
 
 .section_navegacao ul {
-    padding: 0 0.3rem;
+    gap: 0.6rem;
     display: flex;
     justify-content: space-between;
 }
@@ -70,8 +66,8 @@ body {
 
 /* Sessão sobre */
 
-.section_apresentacao {
-    width: 40%;
+.sessão_apresentacao {
+    width: 60%;
     display: block;
     margin: 5em auto;
     text-align: center;
@@ -101,7 +97,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.grid_imagem_principal {
+.flex_imagem_principal {
     font-size: 1.5rem;
     width: 80%;
     margin: auto;
@@ -111,19 +107,20 @@ body {
 }
 
 
-.grid_imagem_principal a {
-    width: 20%;
+.flex_imagem_principal a {
+    margin: 3rem 0;
     color: var(--branco-fontes);
     text-decoration: none;
     transition: font-size 600ms;
 }
 
 
-.grid_imagem_principal a img {
-    width: 60px;
+.flex_imagem_principal a img {
+    width: 3.75rem;
 }
 
-.grid_imagem_principal ul {
+.flex_imagem_principal ul {
+    margin: 1rem 0;
     width: 20%;
     display: flex;
     justify-content: space-around;
@@ -131,7 +128,20 @@ body {
 
 .imagem_perfil {
     border-radius: 40rem;
-    width: 65vh;
+    width: 60vh;
+}
+.sessão_texto_links{
+    padding-top: 5rem;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+}
+.texto_apresentacao {
+    margin-top: 2rem;
+    margin: 3rem ;
+    color: var(--cinza-fontes);
+    font-size: 1.5rem;
 }
 
 .transition_border-radius {
@@ -144,26 +154,19 @@ body {
     width: 70vh;
 }
 
-
 .transition_links {
     transition: width 1s;
-
 }
 
 .transition_links li a img:hover {
     width: 80px;
 }
 
-.grid_imagem_principal a:hover {
+.flex_imagem_principal a:hover {
     font-size: 2rem;
 }
 
-.texto_apresentacao {
-    width: 120vh;
-    margin: 2rem auto;
-    color: var(--cinza-fontes);
-    font-size: 1.5rem;
-    text-align: justify;
-}
+
+
 
 /* Sessão sobre */
