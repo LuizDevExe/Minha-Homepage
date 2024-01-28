@@ -10,11 +10,6 @@ Com foco em estilizações e animações, utilizo o flexbox para redimensionamen
 
 <br/>
 
-Segue fotos do projeto:
-![image](https://github.com/LuizDevExe/Minha-Homepage/assets/109562299/4348dfae-4a80-46f9-b6a1-ea34cf271528)
-![image](https://github.com/LuizDevExe/Minha-Homepage/assets/109562299/66c9dd9f-2c47-4f1a-b2fa-cc2b498bc88d)
-![image](https://github.com/LuizDevExe/Minha-Homepage/assets/109562299/80fe5a2b-8a03-4bed-a17d-7501c8151dca)
-
 
 
   
